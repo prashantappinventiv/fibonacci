@@ -16,6 +16,9 @@ console.log(name);
 */
 
 /* the scope of var function is through out the programme*/
+
+/*
+
 var name="shivam";
 function welcome(){
 
@@ -26,12 +29,21 @@ function welcome(){
     }
     hello();
  }
+
  console.log(name);
 welcome();
 
 /* the scope of let to the block*/
+/*
+
 function Welcome()
 {
     let name="prashant";
     console.lag(name);
 }
+
+*/
+// in constant we can not redefined the value
+const Number=45;
+console.log(Number);
+Number=97;
